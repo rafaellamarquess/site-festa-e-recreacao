@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamento - Festa e Recreação Infantil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Festa e Recreação</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="orcamento.html">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Solicitar Orçamento</h1>
+    <p>
+      Estamos aqui para tornar seu evento inesquecível!<br>
+      Seja uma festa de aniversário, uma gincana divertida ou um piquenique alegre, nossa equipe está pronta para proporcionar a melhor experiência para você e seus pequenos.<br><br>
+      Preencha o formulário abaixo com suas informações e os detalhes do seu evento. Assim, poderemos entender suas necessidades e oferecer um orçamento personalizado que atenda às suas expectativas.<br><br>
+      <strong>Oferecemos:</strong><br>
+      - Atividades recreativas diversificadas<br>
+      - Apresentações teatrais emocionantes<br>
+      - Brinquedos e jogos que garantem a diversão<br>
+      - Apresentações educativas que encantam e ensinam<br><br>
+      Estamos ansiosos para ajudar você a criar momentos de alegria e diversão. Não hesite em nos contatar caso tenha alguma dúvida!<br><br>
+      Vamos começar?
+    </p>
+
+    <form action="#" method="post">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Telefone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Endereço:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="event-date">Data do evento:</label>
+      <input type="date" id="event-date" name="event-date" required>
+
+      <label for="age-range">Idade média dos participantes:</label>
+      <input type="number" id="age-range" name="age-range" required>
+
+      <label for="event-type">Tipo de evento:</label>
+      <select id="event-type" name="event-type" required>
+        <option value="aniversario">Aniversário</option>
+        <option value="gincana">Gincana</option>
+        <option value="piquenique">Piquenique</option>
+      </select>
+
+      <label>Serviço desejado:</label>
+      <input type="radio" id="teatro" name="service" value="teatro" required>
+      <label for="teatro">Teatro</label>
+      <input type="radio" id="brinquedo" name="service" value="brinquedo" required>
+      <label for="brinquedo">Brinquedo</label>
+      <input type="radio" id="educativo" name="service" value="educativo" required>
+      <label for="educativo">Apresentação Educativa</label>
+
+      <label for="observations">Observações:</label>
+      <textarea id="observations" name="observations"></textarea>
+
+      <button type="submit">Solicitar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Contato: (XX) XXXX-XXXX | Email: contato@festarecreacao.com</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+</body>
+</html>

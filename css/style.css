@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #6cc6f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #6cc6f0;
+  }
+  
+  .carousel-images img, .photo-grid img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+.carousel img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+  }
+    
+ /* Serviços*/
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .service {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .service img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  
+  .service a {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .service a:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .service {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Depoimentos*/
+  .depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .depoimento {
+    flex: 1 1 calc(33.333% - 20px); 
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .depoimento img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .depoimento p {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .depoimento {
+      flex: 1 1 100%;
+    }
+  }
+
+  .btn-budget {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    margin-top: 15px; /* Espaçamento superior */
+    border: none; /* Remove a borda se for um botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  
+  .btn-orcamento:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #6cc6f0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #6cc6f0;
+  }
+  
+  footer {
+    background-color: #6cc6f0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p, footer a {
+    color: #000000;
+  }
+  
+  footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
